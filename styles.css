@@ -169,25 +169,24 @@ h6 {
 .border {
     border-top: 1px solid #472a1b;
     margin: 24px 0;
-    width: 70%;
+    width: 100%;
 }
 
 /* keungulan section */
 
 .divider {
     width: 1px;
-    height: 100px;
+    height: 200px;
     background-color: black;
 }
 
 
-.keungulan {
+.keunggulan {
     width: 100%;
 }
 
-.keungulan-header {
+.keunggulan-header {
     display: flex;
-
     justify-content: center;
     align-items: center;
     padding: 12px 44px;
@@ -195,19 +194,91 @@ h6 {
 
 }
 
-.keungulan h3 {
+.keunggulan h3 {
     text-wrap: none;
     width: 100%;
     text-align: center;
+    margin: 0;
+    padding-top: 0;
 }
 
-.keungulan-content {
+.keunggulan .border {
+    height: 1px;
+    width: 100%;
+}
+
+.keunggulan-content {
     position: relative;
     display: flex;
     gap: 46px;
     align-items: center;
     justify-content: center;
     padding: 20px 12px;
-    height: 70%;
-    margin: none;
+    height: 20%;
+    margin: 0 auto;
+    max-width: 60%;
+    text-align: center;
+}
+
+.keunggulan-item {
+    text-align: center;
+
+
+}
+
+.keunggulan-icon {
+    width: 10vw;
+    height: auto;
+}
+
+/* preview-product section */
+
+.preview-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 44px;
+    gap: 24px;
+}
+
+.preview-header h3 {
+    text-wrap: none;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 0;
+}
+
+
+.card {
+    width: 220px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    /* 🔥 keeps it clean */
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .product-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+    padding: 50px 20px;
 }
