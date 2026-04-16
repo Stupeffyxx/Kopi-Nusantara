@@ -99,6 +99,27 @@ a {
 .hero-content h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+}
+
+.page-header {
+     color: #472a1b ;
+    padding: 60px 24px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 28px;
+
+}
+
+.page-header h2,
+.page-header h3 {
+     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.page-header h2 {
+     font-size: 44px;
 
 }
 
@@ -211,7 +232,7 @@ a {
     align-items: center;
     padding: 12px 44px;
     gap: 24px;
-    text-wrap: nowrap ;
+    text-wrap: nowrap;
 
 }
 
@@ -304,11 +325,12 @@ a {
 }
 
 .product-container {
-    display: flex;
+    display: grid;
     align-items: center;
     gap: 24px;
-    justify-content: center;
+    justify-content: center ;
     padding: 20px;
+  grid-template-columns: auto auto auto;
 }
 
 .product-content {
@@ -374,12 +396,12 @@ a {
 /* headline section */
 
 .headline {
-    display:flex;
+    display: flex;
     width: 100%;
     height: 200px;
     padding: 20px 0;
     margin: 40px 0px;
-box-sizing: content-box;
+    box-sizing: content-box;
 }
 
 .headline-content {
@@ -411,16 +433,16 @@ box-sizing: content-box;
     background-color: #a68a63;
     text-decoration: none;
     display: flex;
-   justify-content: center;
-   align-items: center;
-   border: 2px solid black;
-   width: fit-content;
- border-radius: 8px;
- 
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 8px;
+
 }
 
 .button1:hover {
-background-color: #eeb05a;
+    background-color: #eeb05a;
 }
 
 /* footer section */
@@ -431,7 +453,7 @@ background-color: #eeb05a;
 }
 
 .footer-content {
- position: relative;
+    position: relative;
     display: flex;
     gap: 16px;
     align-items: center;
@@ -446,21 +468,21 @@ background-color: #eeb05a;
 .coffe-label {
     display: flex;
     align-items: center;
-     text-wrap: nowrap ;
-     gap: 24px;
+    text-wrap: nowrap;
+    gap: 24px;
 }
 
 .footer-contact {
     display: flex;
     flex-direction: column;
     gap: 12px;
-   
+
 }
 
 .social-media {
     display: flex;
     gap: 12px;
-    
+
 }
 
 .coffe-label-divider {
@@ -476,14 +498,15 @@ background-color: #eeb05a;
     background-color: #d6d3ce;
 }
 
-.whatsapp, .tiktok {
+.whatsapp,
+.tiktok {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
 .copyright {
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -494,7 +517,7 @@ background-color: #eeb05a;
 }
 
 .whatsapp-icon {
-    
+
     width: 24px;
     height: auto;
 }
