@@ -102,7 +102,7 @@ a {
 }
 
 .page-header {
-     color: #472a1b ;
+    color: #472a1b;
     padding: 60px 24px;
     z-index: 10;
     display: flex;
@@ -114,12 +114,12 @@ a {
 
 .page-header h2,
 .page-header h3 {
-     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
 .page-header h2 {
-     font-size: 44px;
+    font-size: 44px;
 
 }
 
@@ -328,9 +328,9 @@ a {
     display: grid;
     align-items: center;
     gap: 24px;
-    justify-content: center ;
+    justify-content: center;
     padding: 20px;
-  grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
 }
 
 .product-content {
